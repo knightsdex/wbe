@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="UP Token" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#f8ffde" />
+    <title>UP</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <script type="module" crossorigin src="/assets/index-nffV_x9h.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C7kl6S2C.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <svg style="position: absolute; width: 0; height: 0">
+      <defs>
+        <filter id="pixelate" x="0" y="0">
+          <feMorphology
+            operator="dilate"
+            radius="2"
+            in="SourceGraphic"
+            result="dilate"
+          />
+          <feGaussianBlur stdDeviation="0" in="dilate" result="blur" />
+          <feColorMatrix
+            type="saturate"
+            values="0"
+            in="blur"
+            result="saturate"
+          />
+          <feComponentTransfer in="saturate" result="transfer">
+            <feFuncA type="discrete" tableValues="0 1" />
+          </feComponentTransfer>
+        </filter>
+      </defs>
+    </svg>
+  </body>
+</html>
