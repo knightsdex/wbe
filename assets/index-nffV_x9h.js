@@ -4291,7 +4291,7 @@ const Ue = "/logo.png",
                   Ue +
                   '" alt="UP"></div><div class="hero__actions"><div class="hero__social"><a href="https://t.me/WBE_Eth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
                   Hl +
-                  '" alt="Telegram"></a></div><div class="hero__button-box"><a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon" class="button hero__button" target="_blank" rel="noopener noreferrer"><span>Buy Now</span></a></div><div class="hero__social"><a href="https://x.com/WBE_Eth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
+                  '" alt="Telegram"></a></div><div class="hero__button-box"><a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x4cead11167ccf6cfea04b431f848c97c7ca44016" class="button hero__button" target="_blank" rel="noopener noreferrer"><span>Buy Now</span></a></div><div class="hero__social"><a href="https://x.com/WBE_Eth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
                   Fn +
                   '" alt="Twitter"></a></div></div></div></div>',
                 1
@@ -4442,7 +4442,7 @@ const Ue = "/logo.png",
       const t = ue(null),
         s = ue(null),
         n = ue([]),
-        r = ue("0xComingSoon"),
+        r = ue("0x4cead11167ccf6cfea04b431f848c97c7ca44016"),
         o = ue(!1),
         i = [
           { value: "100,000,000", label: "Token Supply" },
@@ -4839,7 +4839,7 @@ const Ue = "/logo.png",
           {
             name: "Dextools",
             icon: "/dextools.png",
-            url: "https://www.dextools.io/app/token/0xComingSoon",
+            url: "https://www.dextools.io/app/token/0x4cead11167ccf6cfea04b431f848c97c7ca44016",
           },
         ],
         s = (n) => {
