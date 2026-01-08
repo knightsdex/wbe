@@ -4289,7 +4289,7 @@ const Ue = "/logo.png",
               (r[2] = Pi(
                 '<div class="hero__container"><div class="hero__content"><div class="hero__title"><img src="' +
                   Ue +
-                  '" alt="UP"></div><div class="hero__actions"><div class="hero__social"><a href="https://t.me/wbeEth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
+                  '" alt="UP"></div><div class="hero__actions"><div class="hero__social"><a href="https://t.me/WBE_Eth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
                   Hl +
                   '" alt="Telegram"></a></div><div class="hero__button-box"><a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon" class="button hero__button" target="_blank" rel="noopener noreferrer"><span>Buy Now</span></a></div><div class="hero__social"><a href="https://x.com/WBE_Eth" class="hero__social-item" target="_blank" rel="noopener noreferrer"><img src="' +
                   Fn +
@@ -4834,12 +4834,12 @@ const Ue = "/logo.png",
           {
             name: "Telegram",
             icon: "/telegram.png",
-            url: "https://t.me/upcoinportal",
+            url: "https://t.me/WBE_Eth",
           },
           {
             name: "Dextools",
             icon: "/dextools.png",
-            url: "https://www.dextools.io/app/token/upcoinonsol",
+            url: "https://www.dextools.io/app/token/0xComingSoon",
           },
         ],
         s = (n) => {
